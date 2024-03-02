@@ -18,4 +18,4 @@ KOOK频道：https://kook.top/uu1fvv
 
 ![Contributors](https://contrib.rocks/image?repo=MFn233/PCL-Mainpage-Market)
 
-~Bus factor : 1~
+~Bus factor : 2~
