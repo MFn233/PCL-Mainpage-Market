@@ -10,6 +10,8 @@ PCL主页市场，用于分享未被载入预设的主页。
 
 * https://gitee.com/my_com_cn/pcl_homepage/
 
+* https://jsd.onmicrosoft.cn/gh/Ad-closeNN/aft/Custom.xaml
+
 ## 发送pull request以添加你的主页。在网站第一个正式版发布之后，我们会随之载入。
 
 原帖：https://github.com/Hex-Dragon/PCL2/discussions/2528#discussioncomment-8652282
