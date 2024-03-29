@@ -12,7 +12,7 @@ PCL主页市场，用于分享未被载入预设的主页。
 
 * https://jsd.onmicrosoft.cn/gh/Ad-closeNN/aft/Custom.xaml
 
-## 提供issue以添加你的主页。在网站第一个正式版发布之后，我们会随之载入。
+## 提供[issue](https://github.com/MFn233/PCL-Mainpage-Market/issues/new?template=新主页.md)以添加你的主页。在网站第一个正式版发布之后，我们会随之载入。
 
 原帖：https://github.com/Hex-Dragon/PCL2/discussions/2528#discussioncomment-8652282
 
