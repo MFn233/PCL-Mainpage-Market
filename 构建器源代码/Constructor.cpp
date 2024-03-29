@@ -25,16 +25,26 @@ int main(int argc, char** argv) {
 		}
 		cout<<"<local:MyCard Margin=\"0,0,0,12\" Title=\"" + title + "\" CanSwap=\"True\" IsSwaped=\"True\">";
 		cout<<"<StackPanel Margin=\"24,40,24,15\">";
-
-		getline(cin,link);
-		cout<<"<StackPanel Orientation=\"Horizontal\" Margin=\"0,0,0,0\"><TextBlock Text=\"直链: \" FontSize=\"15\" Foreground=\"{DynamicResource ColorBrush2}\" /><local:MyTextButton Text=\""+ link +"\" EventType=\"复制文本\" EventData=\""+ link +"\" ToolTip=\"点击复制文本\" Margin=\"0,2,0,0\"/></StackPanel>";
-
+		
+		cout<<"<StackPanel Margin=\"0,0,0,5\"><TextBlock Text=\"链接: \" FontSize=\"15\" Foreground=\"{DynamicResource ColorBrush2}\" />";
 		string temp;
+		getline(cin,temp);
+		if(temp == "::link") {
+			while(true) {
+				getline(cin,link);
+				if(link == "::endlink") {
+					break;
+				} else {
+					cout<<"<local:MyTextButton Text=\""+ link +"\" EventType=\"复制文本\" EventData=\""+ link +"\" ToolTip=\"点击复制文本\" Margin=\"20,2,0,0\" />";
+				}
+			}
+		}
+		cout<<"</StackPanel>";
 		getline(cin,temp);
 		if(temp == "::disc") {
 			while(true) {
 				getline(cin,disc);
-				if(disc=="::enddisc") {
+				if(disc == "::enddisc") {
 					break;
 				} else {	
 					cout<<"<TextBlock Margin=\"5,12,5,0\" TextWrapping=\"Wrap\" HorizontalAlignment=\"Left\" Foreground=\"{DynamicResource ColorBrush1}\" Text=\""+ disc +"\" />";

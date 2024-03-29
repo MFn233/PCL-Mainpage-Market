@@ -1,13 +1,31 @@
-测试标题
-https://example.org/
+ Ad_closeNN的PCL2主页
+::link
+https://github.com/Ad-closeNN/PCL2-home-page
+https://ad-closenn.github.io/aft/Custom.xaml 
+https://jsd.onmicrosoft.cn/gh/Ad-closeNN/aft/Custom.xaml
+::endlink
 ::disc
-测试简介
-测试简介2
+By: Ad_closeNN
+据本人所描述，是用来练习xaml，增进xaml使用技巧的主页（原话：装*用的）
+代码借鉴了Light Beacon，MFn233，SYBass
 ::enddisc
-114514
-https://114.514.1919.810/
+炽翎主页
+::link
+https://github.com/YuShanNan/ChiLing-HomePage-PCL2/
+::endlink
 ::disc
-114514
-1919810
+By： 雨杉楠Yu_Shan_Nan
+一个简洁又不失优雅的PCL2主页
+授权协议：CC BY-NC-SA 4.0
+::enddisc
+SYC
+::link
+https://gluvsf.mcfuns.cn/index.html
+https://github.com/SYBass/SYC
+::endlink
+::disc
+By: SYBass
+SYBass的主页
+无法描述具体内容（杠掉）
 ::enddisc
 ::exit
