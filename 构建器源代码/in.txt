@@ -28,4 +28,13 @@ By: SYBass
 SYBass的主页
 无法描述具体内容（杠掉）
 ::enddisc
+Magic Box PCL Mainpage
+::link
+http://xxag.top/FSC%20Statics/Misc/MagicBox.xaml
+https://cdn.jsdelivr.net/gh/FutureStudios-FSC/PCL-Mainpage-MagicBox@main/MagicBox.xaml
+::endlink
+::disc
+FSC制作的第一个PCL主页， 偶尔看到自定义主页之后做的。
+感谢 Github@MFn233
+::enddisc
 ::exit
