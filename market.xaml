@@ -99,7 +99,7 @@
             <TextBlock Text="链接: " FontSize="15" Foreground="{DynamicResource ColorBrush2}" />
             <local:MyTextButton Text="http://xxag.top/FSC%20Statics/Misc/MagicBox.xaml"
                 EventType="复制文本" EventData="http://xxag.top/FSC%20Statics/Misc/MagicBox.xaml"
-                ToolTip="点击复制文本" Margin="20,2,0,20" />
+                ToolTip="点击复制文本" Margin="20,2,0,0" />
             <local:MyTextButton 
                 Text="https://cdn.jsdelivr.net/gh/FutureStudios-FSC/PCL-Mainpage-MagicBox@main/MagicBox.xaml"
                 EventType="复制文本"
