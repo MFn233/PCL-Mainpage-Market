@@ -4,7 +4,7 @@
             Foreground="{DynamicResource ColorBrush2}" FontSize="24" Text="欢迎来到主页市场!" />
         <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Left"
             Foreground="{DynamicResource ColorBrush1}"
-            Text="这是PCL主页市场，用于分享未被载入预设的主页。在GitHub发送pull request以投稿你的主页，只要有完整的标题、简介与直链，我们都会随之载入。" />
+            Text="这里是 MFn233 做的 PCL 主页市场，用于分享未被载入预设的主页。在 GitHub 发送 Pull Request 以投稿你的主页，只要有完整的标题、简介与直链，我们都会随之载入。" />
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*" />
@@ -13,7 +13,7 @@
             </Grid.ColumnDefinitions>
             <local:MyIconButton Grid.Column="1" LogoScale="1.2"
                 Logo="M13.5,4A1.5,1.5 0 0,0 12,5.5A1.5,1.5 0 0,0 13.5,7A1.5,1.5 0 0,0 15,5.5A1.5,1.5 0 0,0 13.5,4M13.14,8.77C11.95,8.87 8.7,11.46 8.7,11.46C8.5,11.61 8.56,11.6 8.72,11.88C8.88,12.15 8.86,12.17 9.05,12.04C9.25,11.91 9.58,11.7 10.13,11.36C12.25,10 10.47,13.14 9.56,18.43C9.2,21.05 11.56,19.7 12.17,19.3C12.77,18.91 14.38,17.8 14.54,17.69C14.76,17.54 14.6,17.42 14.43,17.17C14.31,17 14.19,17.12 14.19,17.12C13.54,17.55 12.35,18.45 12.19,17.88C12,17.31 13.22,13.4 13.89,10.71C14,10.07 14.3,8.67 13.14,8.77Z"
-                Height="21" Margin="0,5,0,0" ToolTip="GitHub项目仓库"
+                Height="21" Margin="0,5,0,0" ToolTip="GitHub 项目仓库"
                 EventData="https://github.com/MFn233/PCL-Mainpage-Market/" EventType="打开网页"
                 VerticalAlignment="Bottom" />
             <local:MyIconButton Grid.Column="2" LogoScale="1.2"
@@ -23,28 +23,41 @@
         </Grid>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Margin="0,0,0,12" Title=" Ad_closeNN的PCL2主页" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,12" Title=" Ad_closeNN 的 PCL2 主页" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="24,40,24,15">
         <StackPanel Margin="0,0,0,5">
             <TextBlock Text="链接: " FontSize="15" Foreground="{DynamicResource ColorBrush2}" />
-            <local:MyTextButton Text="https://github.com/Ad-closeNN/PCL2-home-page" EventType="复制文本"
-                EventData="https://github.com/Ad-closeNN/PCL2-home-page" ToolTip="点击复制文本"
-                Margin="20,2,0,0" />
-            <local:MyTextButton Text="https://ad-closenn.github.io/aft/Custom.xaml "
-                EventType="复制文本" EventData="https://ad-closenn.github.io/aft/Custom.xaml "
-                ToolTip="点击复制文本" Margin="20,2,0,0" />
-            <local:MyTextButton Text="https://jsd.onmicrosoft.cn/gh/Ad-closeNN/aft/Custom.xaml"
-                EventType="复制文本"
-                EventData="https://jsd.onmicrosoft.cn/gh/Ad-closeNN/aft/Custom.xaml"
-                ToolTip="点击复制文本" Margin="20,2,0,0" />
+            <local:MyTextButton Text="GitHub Pages（访问较慢）： https://ad-closenn.github.io/PCL2-home-page/Custom.xaml"
+                EventType="复制文本" EventData="https://ad-closenn.github.io/PCL2-home-page/Custom.xaml"
+                ToolTip="点击复制 GitHub Pages 上的直链" Margin="20,2,0,0" />
+            <local:MyTextButton Text="GitHub jsdelivr CDN（访问较快）： https://cdn.jsdelivr.net/gh/Ad-closeNN/pcl2-home-page@main/Custom.xaml"
+                EventType="复制文本" EventData="https://cdn.jsdelivr.net/gh/Ad-closeNN/pcl2-home-page@main/Custom.xaml"
+                ToolTip="点击复制 CDN 上的直链" Margin="20,2,0,0" />
+            <local:MyTextButton Text="GitHub 仓库： https://github.com/Ad-closeNN/PCL2-home-page"
+                EventType="打开网页" EventData="https://github.com/Ad-closeNN/PCL2-home-page"
+                ToolTip="点击打开 GitHub" Margin="20,2,0,0" />
+            <Grid>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <local:MyButton Height="35" Margin="0,15,5,4"
+                Grid.Column="0" Text="预览主页（CDN）" EventType="打开帮助" EventData="https://cdn.jsdelivr.net/gh/Ad-closeNN/pcl2-home-page@main/Custom.json"/>
+            <local:MyButton Height="35" Margin="0,15,5,4"
+                Grid.Column="1" Text="预览主页（GitHub Pages）" EventType="打开帮助" EventData="https://ad-closenn.github.io/PCL2-home-page/Custom.json"/>
+            </Grid>
         </StackPanel>
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
             Foreground="{DynamicResource ColorBrush1}" Text="By: Ad_closeNN" />
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
             Foreground="{DynamicResource ColorBrush1}"
-            Text="据本人所描述，是用来练习xaml，增进xaml使用技巧的主页（原话：装*用的）" />
+            Text="据本人所描述，是用来练习xaml，增进xaml使用技巧的主页（原话：装X用的）" />
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
-            Foreground="{DynamicResource ColorBrush1}" Text="代码借鉴了Light Beacon，MFn233，SYBass" />
+            Foreground="{DynamicResource ColorBrush1}" Text="代码借鉴了 Light Beacon，MFn233，SYBass" />
+        <!--特别感谢信标大佬！-->
+        <local:MyIconTextButton Text="CC BY-NC-SA 4.0" ToolTip="无特殊声明这个主页文字内容使用该授权协议" EventType="打开网页"
+            EventData="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            LogoScale="1" Logo="M8.75.75V2h.985c.304 0 .603.08.867.231l1.29.736c.038.022.08.033.124.033h2.234a.75.75 0 0 1 0 1.5h-.427l2.111 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.006.005-.01.01-.045.04c-.21.176-.441.327-.686.45C14.556 10.78 13.88 11 13 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L12.178 4.5h-.162c-.305 0-.604-.079-.868-.231l-1.29-.736a.245.245 0 0 0-.124-.033H8.75V13h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5V3.5h-.984a.245.245 0 0 0-.124.033l-1.289.737c-.265.15-.564.23-.869.23h-.162l2.112 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.016.015-.045.04c-.21.176-.441.327-.686.45C4.556 10.78 3.88 11 3 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L2.178 4.5H1.75a.75.75 0 0 1 0-1.5h2.234a.249.249 0 0 0 .125-.033l1.288-.737c.265-.15.564-.23.869-.23h.984V.75a.75.75 0 0 1 1.5 0Zm2.945 8.477c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327Zm-10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327Z" /> 
     </StackPanel>
 </local:MyCard>
 <local:MyCard Margin="0,0,0,12" Title="炽翎主页" CanSwap="True" IsSwaped="True">
@@ -56,7 +69,7 @@
                 ToolTip="点击复制文本" Margin="20,2,0,0" />
         </StackPanel>
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
-            Foreground="{DynamicResource ColorBrush1}" Text="By： 雨杉楠Yu_Shan_Nan" />
+            Foreground="{DynamicResource ColorBrush1}" Text="By: 雨杉楠Yu_Shan_Nan" />
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
             Foreground="{DynamicResource ColorBrush1}" Text="一个简洁又不失优雅的PCL2主页" />
         <TextBlock Margin="5,12,5,0" TextWrapping="Wrap" HorizontalAlignment="Left"
@@ -87,7 +100,7 @@
             <local:MyTextButton Text="http://xxag.top/FSC%20Statics/Misc/MagicBox.xaml"
                 EventType="复制文本" EventData="http://xxag.top/FSC%20Statics/Misc/MagicBox.xaml"
                 ToolTip="点击复制文本" Margin="20,2,0,0" />
-            <local:MyTextButton
+            <local:MyTextButton 
                 Text="https://cdn.jsdelivr.net/gh/FutureStudios-FSC/PCL-Mainpage-MagicBox@main/MagicBox.xaml"
                 EventType="复制文本"
                 EventData="https://cdn.jsdelivr.net/gh/FutureStudios-FSC/PCL-Mainpage-MagicBox@main/MagicBox.xaml"
